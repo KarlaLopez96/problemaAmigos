@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.matrimonio.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/puerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/puerta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sebas"
+        android:padding="6dp"
+        android:layout_marginLeft="40dp"
+        android:text="Sebas"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hugo"
+        android:padding="6dp"
+        android:text="Hugo"
+        android:layout_toRightOf="@id/Sebas"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/table"
+        android:id="@+id/m11"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:layout_below="@id/Hugo"
+        android:layout_toRightOf="@id/Karla"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Karla"
+        android:padding="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Karla"
+        android:layout_toRightOf="@id/puerta"
+        android:layout_below="@id/Sebas"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/table"
+        android:id="@+id/m12"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/Hugo"
+        android:layout_toRightOf="@id/m11"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/table"
+        android:id="@+id/m13"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/Hugo"
+        android:layout_toRightOf="@id/m12"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/table"
+        android:id="@+id/m21"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        android:layout_marginTop="140dp"
+        android:layout_alignLeft="@id/m11"
+        android:layout_below="@id/m11"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pedro"
+        android:padding="6dp"
+        android:text="Pedro"
+        android:layout_toLeftOf="@id/m22"
+        android:layout_alignTop="@id/m22"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amp1"
+        android:layout_above="@+id/m22"
+        android:layout_toRightOf="@+id/Hugo"
+        android:padding="6dp"
+        android:text="Amigos de pedro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m22"
+        android:layout_toRightOf="@+id/Hugo"
+        android:padding="6dp"
+        android:text="Amigos de pedro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m32"
+        android:layout_alignLeft="@+id/Karla"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:padding="6dp"
+        android:text="Amigos de Douglas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Douglas"
+        android:padding="6dp"
+        android:text="Douglas"
+        android:layout_toRightOf="@id/m31"
+        android:layout_alignTop="@id/m32"
+        android:layout_marginTop="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/m22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m12"
+        android:layout_alignTop="@+id/m21"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@mipmap/table" />
+
+    <ImageView
+        android:id="@+id/m23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m13"
+        android:layout_alignTop="@+id/m22"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@mipmap/table" />
+
+    <ImageView
+        android:id="@+id/m31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m21"
+        android:layout_below="@id/m21"
+        android:layout_marginTop="140dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@mipmap/table" />
+
+    <ImageView
+        android:id="@+id/m32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m22"
+        android:layout_alignStart="@+id/m22"
+        android:layout_alignTop="@+id/m31"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@mipmap/table" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sara"
+        android:padding="6dp"
+        android:text="Sara"
+        android:layout_toLeftOf="@id/m33"
+        android:layout_alignTop="@id/m33"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/Obdulio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Sara"
+        android:layout_below="@+id/m33"
+        android:padding="6dp"
+        android:text="Obdulio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m33"
+        android:padding="6dp"
+        android:layout_toRightOf="@id/Obdulio"
+        android:text="Carlos" />
+
+    <ImageView
+        android:id="@+id/m33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/m23"
+        android:layout_alignStart="@+id/m23"
+        android:layout_alignTop="@+id/m32"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@mipmap/table" />
+
+
+</RelativeLayout>
